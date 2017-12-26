@@ -1,0 +1,30 @@
+Git Bash
+
+Initial setup:
+
+	git config --list (list configurations)
+	git config --global user.name "<name>" (change username)
+	git config --global user.email "<email>" (change email)
+
+
+Start project:
+
+Navigate to project directory in Bash, using CD
+	(cd ~     - move to workspace directory)
+	(cd ..    - change to parent directory)
+	(cd <dir> - change to directory, for directories with <space> in the name, use 'name')
+	(ls       - list content of directory)
+	(pwd      - show current directory)
+
+When in desired directory
+	git init (start project in current directory)
+	
+
+Managing files:
+
+Add files
+	git add . (add new files to project)
+
+Commit changes
+	git commit -m "<message>" (commit present state, use message field to identify commit)
+
