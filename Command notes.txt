@@ -27,6 +27,9 @@ Staging
 	git add <file> (stage changes, made to file, for commit)
 	git reset HEAD <file> (unstage changes)
 
+Delete file
+	git rm <file> (remove file from repository and working directory. Does not commit removal)
+
 Commit
 	git commit -m "<message>" (commit present state, use message field to identify commit)
 	git commit -a (automatically stage and commit files that have been changed/deleted)
