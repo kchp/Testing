@@ -36,5 +36,8 @@ Commit log
 	git log --author="<name>" (show commit log from specified user)
 	
 Differences
-	git diff (shows differences between repository and actual file)
+	git diff (shows differences between repository and actual file. This only shows differences between
+			  repository and working copy, does not show staged changes)
+	git diff --staged (shows changes between staged and repository=
+
 	
