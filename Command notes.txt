@@ -29,6 +29,7 @@ Staging
 
 Commit
 	git commit -m "<message>" (commit present state, use message field to identify commit)
+	git commit -a (automatically stage and commit files that have been changed/deleted)
 
 Commit log
 	git log (show commit log)
