@@ -23,7 +23,8 @@ When in desired directory
 Managing files:
 
 Add files
-	git add . (stage changes made to project for commit)
+	git add . (stage all changes made to project for commit)
+	git add <file> (stage changes made to file for commit)
 
 Commit
 	git commit -m "<message>" (commit present state, use message field to identify commit)
