@@ -23,8 +23,12 @@ When in desired directory
 Managing files:
 
 Add files
-	git add . (add new files to project)
+	git add . (stage changes made to project for commit)
 
-Commit changes
+Commit
 	git commit -m "<message>" (commit present state, use message field to identify commit)
 
+Commit log
+	git log (show commit log)
+	git log --author="<name>" (show commit log from specified user)
+	
