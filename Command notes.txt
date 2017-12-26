@@ -35,3 +35,6 @@ Commit log
 	git log (show commit log)
 	git log --author="<name>" (show commit log from specified user)
 	
+Differences
+	git diff (shows differences between repository and actual file)
+	
