@@ -42,6 +42,11 @@ Commit log
 Differences
 	git diff (shows differences between repository and actual file. This only shows differences between
 			  repository and working copy, does not show staged changes)
-	git diff --staged (shows changes between staged and repository=
+	git diff --staged (shows changes between staged and repository)
+
+Revert to previous state
+	git checkout -- <file> (replace working copy with what is in the repository)
+	git checkout <commit no.> -- <file> (replace working copy with version in commit history)
+										(don't need to write the whole commit number, the first 4-7 is enough)
 
 	
