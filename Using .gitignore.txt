@@ -1,0 +1,4 @@
+Using .gitignore
+
+<PATH>/<FODLER>/ (ignore everything in folder)
+<PATH>/<FOLDER>/<file> (ignore specified file)
