@@ -32,7 +32,8 @@ Delete file
 
 Commit
 	git commit -m "<message>" (commit present state, use message field to identify commit)
-	git commit -a (automatically stage and commit files that have been changed/deleted)
+	git commit -a (automatically stage and commit everything that have been changed/deleted.
+				   Take care when using this command, as it WILL grab everything that has been changed)
 
 Commit log
 	git log (show commit log)
