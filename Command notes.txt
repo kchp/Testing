@@ -49,4 +49,22 @@ Revert to previous state
 	git checkout <commit no.> -- <file> (replace working copy with version in commit history)
 										(don't need to write the whole commit number, the first 4-7 is enough)
 
+
+
+Github:
+
+Create a repository on github (uncheck create with README)
+	
+	if connecting to new repository
+		git init (in desired folder)
+		git add .
+		git commit -m "first commit"
+		
+	setup remote location
+		git remote add <nickname> <URL> (give remote location a nickname)
+		
+	Push to repository
+		git push -u <nickname> master (Bash will ask for user/pass for GitHub)
+
+
 	
